@@ -3,11 +3,12 @@ import java.util.ArrayList;
 public class AddressBook {
     private ArrayList<BuddyInfo> book;
 
-    public void AddressBook(){
-        this.book = new ArrayList<>();
+    public AddressBook(){
+        book = new ArrayList<BuddyInfo>();
 
     }
     public void addBuddyInfo(BuddyInfo e){
+
         book.add(e);
     }
     public void removeBuddyInfo(int i){
@@ -15,5 +16,11 @@ public class AddressBook {
     }
  public static void main(String[] args){
         System.out.println("AddressBook");
+
+        BuddyInfo buddy = new BuddyInfo();
+        buddy.setName("Tom");
+        AddressBook book = new AddressBook();
+        book.addBuddyInfo(buddy);
+        book.removeBuddyInfo(0);
  }
 }

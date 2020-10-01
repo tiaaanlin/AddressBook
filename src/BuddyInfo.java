@@ -1,4 +1,4 @@
-public class BuddyInfo {
+public class BuddyInfo {// this class is for creating a buddy object
     public String getName() {
         return name;
     }

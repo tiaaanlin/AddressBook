@@ -13,10 +13,9 @@ public class BuddyInfo {// this class is for creating a buddy object
         BuddyInfo buddy = new BuddyInfo();
         buddy.setName("Tian");
 
-        BuddyInfo buddy2 = new BuddyInfo();
-        buddy2.setName("Alex");
+
         System.out.println("Hello, "+buddy.getName());
-        System.out.println("Hello,"+buddy2.getName());
+
     }
 
 }

@@ -24,6 +24,6 @@ public class AddressBook {
         book.removeBuddyInfo(0);
 
 
-        System.out.println("This is a book");
+
  }
 }
